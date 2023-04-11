@@ -14,7 +14,7 @@ import {
   Point,
   Polygon,
   Position,
-} from ".geojson";
+} from "./geojson";
 
 export function isNumber(num: any): boolean {
   return !isNaN(num) && num !== null && !Array.isArray(num);
